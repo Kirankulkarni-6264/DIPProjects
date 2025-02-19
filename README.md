@@ -43,15 +43,6 @@ The processed image will be **displayed** next to the original.
 
 ---
 
-## 🖼️ Example Outputs
-
-| **Operation** | **Input Image** | **Output Image** |
-|--------------|---------------|---------------|
-| **Quantization (Bit Depth = 2)** | ![Original](https://upload.wikimedia.org/wikipedia/commons/2/24/Lenna.png) | ![Quantized](https://upload.wikimedia.org/wikipedia/commons/2/24/Lenna.png) |
-| **Resolution Reduction (Factor = 4)** | ![Original](https://upload.wikimedia.org/wikipedia/commons/2/24/Lenna.png) | ![Reduced](https://upload.wikimedia.org/wikipedia/commons/2/24/Lenna.png) |
-
----
-
 ## 🛠️ Features & Testing
 ✔️ **Supports grayscale images** (PNG, JPG, BMP, TIFF).  
 ✔️ **Bit Depth Reduction:** Choose from `1-8` bit levels.  
