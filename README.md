@@ -1,54 +1,54 @@
-# 🖼️ Image Quantization & Resolution Reduction in Google Colab
+# 🖼️ Image Manipulation in Google Colab
 
-## 📌 Project Overview
-This project demonstrates two fundamental **image processing operations** using **Google Colab**:
-1. **Image Quantization**: Reduces the bit depth of a grayscale image.
-2. **Spatial Resolution Modification**: Reduces the spatial resolution of an image by averaging neighboring pixels.
+## 📌 Project Summary
+This project showcases two key **image manipulation techniques** using **Google Colab**:
+1. **Image Bit Depth Reduction**: Decreases the number of bits used to represent each pixel in a grayscale image.
+2. **Spatial Downsampling**: Lowers the image's resolution by averaging neighboring pixel values.
 
-The script allows users to **upload an image from their local system**, process it, and visualize the results.
+Users can **upload a local image**, process it using either technique, and visually compare the output with the original.
 
 ---
 
-## ⚙️ Dependencies & Setup
-No external installations are required!  
-Google Colab comes pre-installed with all necessary libraries:
-- `OpenCV` (`cv2`) – for image loading and processing.
-- `NumPy` – for numerical computations.
-- `Matplotlib` – for visualizing images.
-- `Google Colab files` – for handling file uploads.
+## ⚙️ Requirements & Setup
+No additional installations are needed!  
+Google Colab has all required libraries pre-installed:
+- `OpenCV` (`cv2`) – for image input/output and manipulation.
+- `NumPy` – for array-based computations.
+- `Matplotlib` – for image display.
+- `Google Colab files` – for managing file uploads.
 
 ---
 
 ## 🚀 Running the Code in Google Colab
-### **Step 1: Open Google Colab**
-Go to [Google Colab](https://colab.research.google.com/) and create a new notebook.
+### **Step 1: Access Google Colab**
+Navigate to [Google Colab](https://colab.research.google.com/) and create a new notebook.
 
-### **Step 2: Copy & Paste the Code**
-Copy the **Python script** (`DigitalImageProcessing.ipynb`) into a Colab cell.
+### **Step 2: Integrate the Code**
+Paste the **Python script** (`DigitalImageProcessing.ipynb`) into a Colab cell.
 
-### **Step 3: Run the Script**
-Click **"Run"** or press `Shift + Enter`.  
-A **file selection dialog** will appear.
+### **Step 3: Execute the Script**
+Click **"Run"** or use `Shift + Enter`.  
+A **file selection window** will appear.
 
 ### **Step 4: Upload an Image**
-- Click **"Choose Files"** and upload a **grayscale image** (`.png`, `.jpg`, `.bmp`, etc.).
-- The script will automatically process the image.
+- Select **"Choose Files"** and upload a **grayscale image** (`.png`, `.jpg`, `.bmp`, etc.).
+- The script will automatically process the image upon upload.
 
-### **Step 5: Choose an Operation**
-- Enter `1` for **Image Quantization** (bit depth reduction).
-- Enter `2` for **Resolution Reduction** (downsampling).
+### **Step 5: Select a Process**
+- Type `1` for **Image Bit Depth Reduction**.
+- Type `2` for **Spatial Downsampling**.
 
-### **Step 6: View and Analyze the Results**
-The processed image will be **displayed** next to the original.
+### **Step 6: Examine the Results**
+The processed image will be **displayed** alongside the original for comparison.
 
 ---
 
 ## 🛠️ Features & Testing
-✔️ **Supports grayscale images** (PNG, JPG, BMP, TIFF).  
-✔️ **Bit Depth Reduction:** Choose from `1-8` bit levels.  
-✔️ **Resolution Downsampling:** Choose **factor (2, 4, 8, etc.)**.  
-✔️ **Interactive File Upload & Processing in Google Colab**.  
-✔️ **No manual path entry required**.  
+✔️ **Supports grayscale images** (PNG, JPG, BMP, TIFF formats).  
+✔️ **Bit Depth Control:** Choose from `1-8` bit levels.  
+✔️ **Resolution Reduction:** Select a **downsampling factor (2, 4, 8, etc.)**.  
+✔️ **Interactive Upload and Processing within Google Colab**.  
+✔️ **Automatic file path handling**.  
 
 ### **Tested On:**
 - **Google Colab**
@@ -57,10 +57,8 @@ The processed image will be **displayed** next to the original.
 
 ---
 
-## ⚠️ Notes & Edge Cases
-- Ensure that the **uploaded image is grayscale**.
-- If the file upload fails, restart the Colab runtime (`Runtime > Restart and run all`).
-- **Lower bit depth** results in **loss of detail**.
-- **Higher resolution reduction factors** can cause **blurring**.
-
-
+## ⚠️ Important Considerations
+- Only **grayscale images** are currently supported.
+- If the file upload malfunctions, try restarting the Colab runtime (`Runtime > Restart and run all`).
+- **Reducing bit depth** decreases **image detail**.
+- **Higher downsampling factors** can introduce **blurriness**.
