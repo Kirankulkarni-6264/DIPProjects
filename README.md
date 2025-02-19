@@ -24,7 +24,7 @@ Google Colab comes pre-installed with all necessary libraries:
 Go to [Google Colab](https://colab.research.google.com/) and create a new notebook.
 
 ### **Step 2: Copy & Paste the Code**
-Copy the **Python script** (`image_processing.py`) into a Colab cell.
+Copy the **Python script** (`DigitalImageProcessing.ipynb`) into a Colab cell.
 
 ### **Step 3: Run the Script**
 Click **"Run"** or press `Shift + Enter`.  
